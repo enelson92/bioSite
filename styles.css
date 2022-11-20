@@ -1,8 +1,89 @@
+.topnav {
+    text-align: center;
+    border: 3px solid #660066;
+    font-size: 34px;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    background-color: #660066;
+    }
+  
+
+.topnav a{
+    color: white;
+}
+
 body {
     background-color: #ffccff;
+    font-family: "Cormorant Garamond", Arial, sans-serif;
 }
 
 h1, h2, h3 {
     text-align: center;
+    color:#660066;
 }
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-decoration-line: underline;
+    
+}
+
+.lori {
+    padding: 30px;
+}
+
+h2 {
+    font-size: 42px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+footer img {
+    justify-content: center;
+    padding: 10px;
+    border-radius: 30px;
+    width: 50%;
+    height: 50%;
+   
+}
+
+hr {
+    border: 1px solid #660066;;
+}
+
+.center {
+   width: 200px;
+   margin: auto;
+   text-align: left;
+   font-size: 24px;
+   
+}
+
+.headshot, .transactions, .banner {
+    border-radius: 10px;
+}
+
+
+.awards {
+    font-size: 38px;
+}
+
+.transactions {
+    height: 25%;
+    width: 25%;
+}
+
+
 
