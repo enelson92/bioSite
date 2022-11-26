@@ -68,10 +68,9 @@ hr {
   font-size: 24px;
 }
 
-.headshot,
-.transactions,
-.banner {
+img {
   border-radius: 10px;
+  border: 2px solid black;
 }
 
 .awards {
@@ -83,6 +82,48 @@ hr {
   width: 25%;
 }
 
+.banner img {
+  border: none;
+}
+
 li {
   font-weight: bold;
+}
+
+.bio {
+  padding: 0 120px;
+  font-size: 26px;
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.all-about-lori {
+  font-size: 56px;
+  padding-top: 20px;
+}
+
+.lori-client, .lori-school {
+  width: 250px;
+  height: auto;
+}
+
+.family-cruise, .family-dolphin {
+  width: 300px;
+  height: auto;
+  display: inline-block;
+ 
+}
+
+.family-dolphin {
+  height: 250px;
+  width: auto;
+}
+
+.family-photos {
+  text-align: center;
+  display: flex;
+  align-items:center;
 }
