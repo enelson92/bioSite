@@ -47,6 +47,8 @@ img {
   margin-left: auto;
   margin-right: auto;
   display: block;
+  border-radius: 10px;
+  border: 2px solid black;
 }
 
 footer img {
@@ -68,10 +70,12 @@ hr {
   font-size: 24px;
 }
 
-img {
-  border-radius: 10px;
-  border: 2px solid black;
+.background-image {
+  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://github.com/enelson92/bioSite/blob/main/Lori-Pics/Inspiration-2.png?raw=true");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
+
 
 .awards {
   font-size: 38px;
@@ -90,7 +94,7 @@ li {
   font-weight: bold;
 }
 
-.bio {
+.bio, .hobbies, .inspiration {
   padding: 0 120px;
   font-size: 26px;
   text-align: center;
@@ -127,3 +131,17 @@ li {
   display: flex;
   align-items:center;
 }
+
+figure {
+  text-align: center;
+}
+
+.studio-tour, .design-inspiration, .image-inspiration {
+  height: 300px;
+  width: auto;
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
