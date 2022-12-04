@@ -71,11 +71,14 @@ hr {
 }
 
 .background-image {
-  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://github.com/enelson92/bioSite/blob/main/Lori-Pics/Inspiration-2.png?raw=true");
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://github.com/enelson92/bioSite/blob/main/Lori-Pics/Inspiration-2.png?raw=true");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-
 
 .awards {
   font-size: 38px;
@@ -94,7 +97,9 @@ li {
   font-weight: bold;
 }
 
-.bio, .hobbies, .inspiration {
+.bio,
+.hobbies,
+.inspiration {
   padding: 0 120px;
   font-size: 26px;
   text-align: center;
@@ -104,21 +109,23 @@ li {
   font-weight: bold;
 }
 
-.all-about-lori, .hobbies-title {
+.all-about-lori,
+.hobbies-title {
   font-size: 56px;
   padding-top: 20px;
 }
 
-.lori-client, .lori-school {
+.lori-client,
+.lori-school {
   width: 250px;
   height: auto;
 }
 
-.family-cruise, .family-dolphin {
+.family-cruise,
+.family-dolphin {
   width: 300px;
   height: auto;
   display: inline-block;
- 
 }
 
 .family-dolphin {
@@ -129,14 +136,16 @@ li {
 .family-photos {
   text-align: center;
   display: flex;
-  align-items:center;
+  align-items: center;
 }
 
 figure {
   text-align: center;
 }
 
-.studio-tour, .design-inspiration, .image-inspiration {
+.studio-tour,
+.design-inspiration,
+.image-inspiration {
   height: 300px;
   width: auto;
 }
@@ -144,4 +153,3 @@ figure {
 .underlined {
   text-decoration: underline;
 }
-
