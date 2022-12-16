@@ -11,6 +11,8 @@
 
 .topnav a {
   color: white;
+  padding: 0 30px;
+  float: left;
 }
 
 body {
