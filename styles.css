@@ -30,7 +30,6 @@ h3 {
 h1 {
   font-size: 48px;
   font-weight: bold;
-  text-decoration-line: underline;
 }
 
 .lori {
@@ -150,8 +149,4 @@ figure {
 .image-inspiration {
   height: 300px;
   width: auto;
-}
-
-.underlined {
-  text-decoration: underline;
 }
